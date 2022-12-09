@@ -1,47 +1,46 @@
 ---
 title: vite中配置路径别名
-tags: [前端,项目,Vue,vite]
+tags: [前端, 项目, Vue, vite]
 categories: [Vue3]
 description: 配置路径别名@代表src路径
 date: 2022-07-26
-cover: https://urlify.cn/3YRb2e
+cover: https://urlify.cn/eAJj6b
 ---
 
 # vite 中使用 @ ，配置路径别名
 
-vite 加 vue3项目中报错`Cannot find module 'XXXXXX ’ or its corresponding type declarations`
+vite 加 vue3 项目中报错`Cannot find module 'XXXXXX ’ or its corresponding type declarations`
 
 我们只需要在以下几个文件里面配置：
 
-**vite.config.ts**: 
+**vite.config.ts**:
 
-注意这里用了node的path模块需要执行`npm i --save-dev @types/node`命令
+注意这里用了 node 的 path 模块需要执行`npm i --save-dev @types/node`命令
 
-~~~ts
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-const path = require('path');
+```ts
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+const path = require("path");
 
 export default defineConfig({
   plugins: [vue()],
   define: {
-    'process.env': {},
+    "process.env": {},
   },
   resolve: {
     // 配置路径别名
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
 });
-~~~
-
+```
 
 **tsconfig.json**：
 
-配置baseUrl，paths
+配置 baseUrl，paths
 
-~~~json
+```json
 {
   "compilerOptions": {
     "target": "esnext",
@@ -61,7 +60,6 @@ export default defineConfig({
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
-~~~
+```
 
-大工告成啦！接下来可以用@别名代表src的绝对路径
-
+大工告成啦！接下来可以用@别名代表 src 的绝对路径
