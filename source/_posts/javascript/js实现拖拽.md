@@ -4,7 +4,7 @@ tags: [前端,JavaScript]
 categories: [JavaScript,demo]
 description: js实现拖拽功能
 date: 2022-07-28
-cover: https://urlify.cn/2Ev2Qz
+cover: https://is.gd/BKfqTS
 ---
 
 # js实现拖拽功能

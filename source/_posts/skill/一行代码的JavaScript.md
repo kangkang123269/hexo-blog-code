@@ -4,7 +4,7 @@ tags: [前端,JavaScript,skill]
 categories: [JavaScript]
 description: 一行代码的JavaScript
 date: 2022-07-27
-cover: https://urlify.cn/6ZVzIj
+cover: https://is.gd/HTvRXL
 ---
 
 # 一行代码的JavaScript

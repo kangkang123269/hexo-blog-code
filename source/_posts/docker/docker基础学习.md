@@ -4,7 +4,7 @@ tags: [运维]
 categories: [docker]
 description: docker基础学习
 date: 2022-07-28
-cover: https://urlify.cn/yqme2e
+cover: https://is.gd/ISMSi4
 ---
 
 # docker基础学习——（篇一）

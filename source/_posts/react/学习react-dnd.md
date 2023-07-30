@@ -4,7 +4,7 @@ tags: [前端,react-dnd]
 categories: [react]
 date: 2022-07-27
 description: 学习React-dnd, 写了一个例子和一个demo.
-cover: https://urlify.cn/B3uiUv
+cover: https://is.gd/vx8crE
 ---
 # 用 React Hooks 的方式使用 react-dnd
 

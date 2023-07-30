@@ -4,7 +4,7 @@ tags: [前端, 项目, Vue, vite]
 categories: [Vue3]
 description: 配置路径别名@代表src路径
 date: 2022-07-26
-cover: https://urlify.cn/eAJj6b
+cover: https://is.gd/tR20xa
 ---
 
 # vite 中使用 @ ，配置路径别名

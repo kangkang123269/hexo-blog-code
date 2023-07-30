@@ -23,6 +23,10 @@ pretty_urls:
 aplayer:
   meting: true
 
+lazyload:
+  enable: true
+  loadingImg: /img/loading.gif
+
 # Directory
 source_dir: source
 public_dir: public

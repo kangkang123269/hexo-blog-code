@@ -4,7 +4,7 @@ tags: [前端,Vue,前端性能优化]
 categories: [Vue]
 description: 在Vue中使用keep-alive
 date: 2022-07-27
-cover: https://urlify.cn/fYrUr2
+cover: https://is.gd/YEdGdo
 ---
 
 # 在Vue中使用keep-alive

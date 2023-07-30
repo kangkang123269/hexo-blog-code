@@ -1,10 +1,10 @@
 ---
-title: Vue3 新特性
+title: 在Vue中使用keep-alive
 tags: [Vue深入]
 categories: [Vue深入]
 description: 在Vue中使用keep-alive
 date: 2022-12-30
-cover: http://tny.im/KpBhu
+cover: https://is.gd/ceNaY1
 ---
 
 # webpack 一些插件的使用

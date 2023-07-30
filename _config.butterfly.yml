@@ -49,9 +49,11 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
-  preload: false
-  CDN:
+  enable: true
+  labels:
+    text: 搜索
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
 
 # Math (數學)
 # --------------------------------------
@@ -75,11 +77,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/avatar.png
+favicon: /img/avatar.webp
 
 # Avatar (頭像)
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -152,7 +154,7 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -178,8 +180,9 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   style_simple: false # for post
+  scroll_percent: true
 
 post_copyright:
   enable: true
@@ -529,7 +532,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
@@ -539,10 +542,10 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
-  mobile: false
+  shake: false #  open shake (抖動特效)
+  mobile: true
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
@@ -557,14 +560,22 @@ click_heart:
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
+     - 富强
+     - 民主
+     - 文明
+     - 和谐
+     - 平等
+     - 公正
+     - 法治
+     - 爱国
+     - 敬业
+     - 诚信
+     - 友善
   fontSize: 15px
-  random: false
-  mobile: false
+  random: true
+  mobile: true
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark

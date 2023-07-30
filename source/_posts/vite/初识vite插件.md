@@ -4,7 +4,7 @@ tags: [vite]
 categories: [前端工程化]
 description: 初识vite插件
 date: 2022-07-29
-cover: https://urlify.cn/eAJj6b
+cover: https://is.gd/tR20xa
 ---
 
 # 初识vite插件(篇一)

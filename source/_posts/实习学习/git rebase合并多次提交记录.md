@@ -4,7 +4,7 @@ tags: [实习学习]
 categories: [git]
 description: 实习git rebase的使用场景
 date: 2022-10-28
-cover: http://tny.im/Ihnfq
+cover: https://is.gd/Up9WrG
 ---
 
 # git rebase 合并多次提交记录

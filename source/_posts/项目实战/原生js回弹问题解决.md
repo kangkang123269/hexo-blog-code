@@ -4,7 +4,7 @@ tags: [项目实战]
 categories: [项目实战]
 description: 在开发过程中我们可能需要实现拖拽功能
 date: 2022-10-31
-cover: https://urlify.cn/2Ev2Qz
+cover: https://is.gd/BKfqTS
 ---
 
 # 原生 js 回弹问题
