@@ -262,12 +262,13 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
   use: # Valine,Disqus
+    - Gitalk
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  lazyload: true
+  count: true # Display comment count in post's top_img
+  card_post_count: true # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -291,12 +292,20 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: da1e20f42e32d51fea42
-  client_secret: f781dbc4f714a0713c45c8b57a9cf2672dcf954a
-  repo: kangkang123269.github.io
-  owner: kangkang123269
-  admin: kangkang123269
-  option:
+  client_id: da1e20f42e32d51fea42 # 你创建完之后会有 一个 id 把 ID 输入到这个地方
+  client_secret: 3f93152b894d820b82de4844c88c1e37187ccdab # 以上同理
+  repo: kangkang123269.github.io # 注意这个地方是存放评论的地方，写的是你的仓库名不是地址！！！
+  owner: kangkang123269 # 写你的用户名就好了
+  admin: kangkang123269 # 输入你的用户名就可以了
+  language: zh-CN
+  perPage: 10
+  distractionFreeMode: true # Facebook-like distraction free mode
+  pagerDirection: last
+  createIssueManually: true
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
+  
 
 # valine
 # https://valine.js.org
@@ -562,17 +571,17 @@ click_heart:
 ClickShowText:
   enable: true
   text:
-     - 富强
-     - 民主
-     - 文明
-     - 和谐
-     - 平等
-     - 公正
-     - 法治
-     - 爱国
-     - 敬业
-     - 诚信
-     - 友善
+    - 富强
+    - 民主
+    - 文明
+    - 和谐
+    - 平等
+    - 公正
+    - 法治
+    - 爱国
+    - 敬业
+    - 诚信
+    - 友善
   fontSize: 15px
   random: true
   mobile: true
