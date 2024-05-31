@@ -4,7 +4,7 @@ tags: [运维]
 categories: [docker]
 description: docker基础学习
 date: 2022-07-28
-cover: https://is.gd/ISMSi4
+cover: https://raw.githubusercontent.com/kangkang123269/hexo-blog-code/main/assets/post/docker.jpeg
 ---
 
 # docker 基础学习——（篇一）
